@@ -290,11 +290,11 @@ def draw_hud(recieve_speed):
     alpha_layer = Image.new('RGBA', (hud_display_width, hud_display_height), (0, 0, 0, 128))  # 可以调整最后一个参数来控制透明度
     img = Image.alpha_composite(img, alpha_layer)
 
-    # 设置文本颜色和大小
+    # Sets the text color and size
     font_size = 10
     font_path_for_HUD = os.path.join(desktop_path, "font", "Pixelarial11", "PIXEAB__.TTF")
     font = ImageFont.truetype(font_path_for_HUD, font_size)
-    # 显示速度信息
+    # Speed information
     recieve_speed = max(0, recieve_speed)
     speed_text = "{:.0f}".format(recieve_speed)
 
