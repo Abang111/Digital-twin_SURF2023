@@ -56,7 +56,7 @@ In file `SumoSupervisor.py`, change the value of parameter `host` to correspondi
 
 The address after changing should be like the following:
 
-**traci.init(port, numRetries=5, host="192.168.0.3")**
+**traci.init(port, numRetries=5, host="192.168.0.1")**
 
 
 ![ip](README_img/supervisor_ip.png)
