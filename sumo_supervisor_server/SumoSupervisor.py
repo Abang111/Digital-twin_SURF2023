@@ -582,7 +582,7 @@ class SumoSupervisor (Supervisor):
             print('Connect to SUMO... This operation may take a few seconds.')
             self.step(step)
 
-            traci.init(port, numRetries=5, host="localhost of client")
+            traci.init(port, numRetries=5, host="localhost of server")
 
             print('traci init successful...')
 
