@@ -52,7 +52,7 @@ If you want to test the test-scenario by yourself, you should do the following s
 Download drive program or Logitech client from [Logitech official website](https://www.logitechg.com/en-us/innovation/g-hub.html) and plug in the hardwares to computers.
 
 ### 7.2 Adjust the Ip address in `SumoSupervisor.py`
-In file `SumoSupervisor.py`, change the value of parameter `host` to corresponding ip address. For instance, if server's ip address is 192.168.0.1, the client's ip address is 192.168.0.3. The `SumoSupervisor.py` in server-side should fill in "192.168.0.3".
+In file `SumoSupervisor.py`, change the value of parameter `host` to corresponding ip address. For instance, if server's ip address is 192.168.0.1, the client's ip address is 192.168.0.3. The `SumoSupervisor.py` in server-side should fill in "192.168.0.1", the `SumoSupervisor.py` in client-side should also fill in "192.168.0.1".
 
 The address after changing should be like the following:
 
